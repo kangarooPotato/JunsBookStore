@@ -47,3 +47,5 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 - I copied all codes form bootstrap and paste, and it works!
 - Let's move on to the next step!!
 
+12:58
+- Finishied adding DataAccess and Models and Utility
