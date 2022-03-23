@@ -29,3 +29,16 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 - add some bootstrap files and modifided _Layout.cshtml, _LoginPartial.cshtml
 - now I can see the bootstrap theme that i added. this Minty theme
 - i feel fresh :D
+
+
+2022-03-23
+
+05:24
+- I'm trying to work on my MacBook.
+- brought a repo and it's working well
+
+05:45
+- added dropdown menu and toggle is not working..
+
+05:59
+- i dont know WHY....
