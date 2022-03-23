@@ -42,3 +42,8 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 05:59
 - i dont know WHY....
+
+12:51
+- I copied all codes form bootstrap and paste, and it works!
+- Let's move on to the next step!!
+
