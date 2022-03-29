@@ -97,3 +97,13 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 17:34
 - i forgot adding ".cshtml" haha.
 - now its working!!
+
+
+18:08
+- tried to merge this branch to main, but I failed completely.
+- A copy branch that I had made just in case saved my life.
+
+
+18:15
+- added Admin area and remove Data, Models forlder
+-  Part 1 DONE.
