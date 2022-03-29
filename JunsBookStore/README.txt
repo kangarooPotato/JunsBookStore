@@ -53,7 +53,6 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 - Let's move on to the next step!!
 
 
-
 2022-03-29
 
 11:45
@@ -96,4 +95,4 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 17:34
 - i forgot adding ".cshtml" haha.
-- now its working!!
+- now its working!!.

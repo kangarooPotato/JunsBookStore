@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -21,6 +21,9 @@
     <ProjectReference Include="..\JunsBooks.DataAccess\JunsBooks.DataAccess.csproj" />
     <ProjectReference Include="..\JunsBooks.Models\JunsBooks.Models.csproj" />
     <ProjectReference Include="..\JunsBooks.Utility\JunsBooks.Utility.csproj" />
+    <ProjectReference Include="..\JunsBookStore.DataAccess\JunsBooks.DataAccess.csproj" />
+    <ProjectReference Include="..\JunsBookStore.Models\JunsBooks.Models.csproj" />
+    <ProjectReference Include="..\JunsBookStore.Utility\JunsBooks.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
