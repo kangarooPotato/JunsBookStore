@@ -106,4 +106,30 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 18:15
 - added Admin area and remove Data, Models forlder
--  Part 1 DONE.
+- Part 1 DONE.
+
+
+18:34
+- migration file name is "20220329223423_AddDefaultIdentityMigration.cs"
+- database updated in PM Console.
+
+
+18:37
+- AddCatrgoryToDb successed
+
+
+18:55
+- Added Repository.cs and IRepository.cs
+
+
+19:31
+- error on ICategoryRepository.cs file ICategoryRepository
+
+
+19:33
+- Again, I typed wrong haha.
+- and modified ISP_Call.cs file. this one here-> "public interface ISP_Call : IDisposable"
+
+
+20:47
+- done with SP_Call.cs and ISP_Call.cs.. its to hard for me. everytime it shows error and error
