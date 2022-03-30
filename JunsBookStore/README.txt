@@ -146,8 +146,27 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 21:52
 - i just made IUnitOfWork public and worked
+- here is the link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0311?f1url=%3FappId%3Droslyn%26k%3Dk(CS0311)
 - Let's Move on to the Part 2 Category CRUD!!!
 
 
 23:04
 - YOOOOOOOOO NOW I CAN ACCESS TO https://localhost:44302/Admin/Category !!!!!
+- but, i can't add category now haha.
+
+23:34
+- <i class="fa-duotone fa-pen-line"></i>&nbsp; <- dont know why. but this code is not working.
+
+
+2022-03-30
+
+00:24
+- DataTables warning: table id=tblData - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+- i dont even know what taht means
+- An unhandled exception occurred while processing the request.
+- InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'JunsBooks.Models.Category',
+	but this ViewDataDictionary instance requires a model item of type 'System.Int32'.
+
+01:13
+- Ajax error.
+- I'm garbage
