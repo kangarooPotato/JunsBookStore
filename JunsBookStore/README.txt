@@ -133,3 +133,21 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 20:47
 - done with SP_Call.cs and ISP_Call.cs.. its to hard for me. everytime it shows error and error
+
+
+20:53
+- I REALLY DONT KNOW WHAT'S WORNG
+- GOD, THIS USING STAAAATMENTSSSSSS
+
+
+21:34
+- Let's send an e-mail to the professor before it's too late.
+
+
+21:52
+- i just made IUnitOfWork public and worked
+- Let's Move on to the Part 2 Category CRUD!!!
+
+
+23:04
+- YOOOOOOOOO NOW I CAN ACCESS TO https://localhost:44302/Admin/Category !!!!!

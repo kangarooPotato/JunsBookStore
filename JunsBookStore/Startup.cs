@@ -1,7 +1,7 @@
 using JunsBooks.DataAccess.Repository;
 using JunsBooks.DataAccess.Repository.IRepository;
-using JunsBookStore.DataAccess.Data;
 
+using JunsBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +36,7 @@ namespace JunsBookStore
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             services.AddControllersWithViews();
         }
 
