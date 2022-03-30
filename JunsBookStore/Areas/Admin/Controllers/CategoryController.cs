@@ -33,7 +33,7 @@ namespace JunsBookStore.Areas.Admin.Controllers
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
-                return NotFound();
+                return NotFound(category);
             }
             return View(category);
         }
