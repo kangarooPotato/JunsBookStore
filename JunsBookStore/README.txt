@@ -170,3 +170,25 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 01:13
 - Ajax error.
 - I'm garbage
+
+
+2022-04-05
+
+10:52
+- I still don't know what the problem is.
+- An unhandled exception occurred while processing the request.
+InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'JunsBooks.Models.Category', but this ViewDataDictionary instance requires a model item of type 'System.Int32'.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(object value)
+
+
+5:53
+- oh god, I found the reason!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+5:57
+- First, at the top of the file "_CreateAndBackToListButton.cshtml", there was a code called "@modelint"
+- This code was also found in the file "_EditAndBackToListButton.cshtml" and was caused by pasting because they were both similar codes.
+- 100% my fault.
+- This is the first time I felt the 'REAL' tingle.
+- and the "AddCategoryToDb" was empty. so i put some code in there
+- on PM console, update-database, it works! now i can see the "dbo.Categories" :D
