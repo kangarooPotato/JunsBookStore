@@ -210,6 +210,11 @@ Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(object
 3. 비어있을테니 다른 에드뭐시기투디비 보고 복붙한 후 복수형으로 똑같이 바꾸기
 4. ApplicationDbContext.cs 파일 가서 public DbSet<뭐시기> 뭐시기복수형 { get; set; } 똑같이 추가하기
 5. PM 콘솔에서 update-database 하기
+6. Make "~~Repository.cs" and "I~~Repository.cs" in the folders.
+7. add interface in the "IUnitOfWork.cs" and add "public I~~Repository ~~ { get; protected set; }" in the "UnitOfWork.cs"
+8. make ~~Controller.cs in the 'Areas/Admin/Controller' 똑같이 만들기
+9. make ~~folder in the 'Areas/Admin/Views' and put in "index.cshtml" + ~.js files
+10. add link on the nav bar
 
 21:24
 - added "dbo.CoverTypes"
