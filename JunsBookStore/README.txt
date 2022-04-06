@@ -215,7 +215,7 @@ Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(object
 6. Make "~~Repository.cs" and "I~~Repository.cs" in the folders.
 7. add interface in the "IUnitOfWork.cs" and add "public I~~Repository ~~ { get; protected set; }" in the "UnitOfWork.cs"
 8. make ~~Controller.cs in the 'Areas/Admin/Controller' 똑같이 만들기
-9. make ~~folder in the 'Areas/Admin/Views' and put in "index.cshtml" + ~.js files
+9. make ~~folder in the 'Areas/Admin/Views' and put in "index.cshtml" + ~.js and ~~Upsert.cs files
 10. add link on the nav bar
 
 21:24
@@ -279,3 +279,24 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 - and i made Product folder in the Areas/Admin/Views but its for morning..
 - good ngiht! :D
 
+00:36
+- just few more things.
+- add some product stuff (index, nav bar, controller, js )
+
+01:25
+- System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation ' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.'
+- error again.
+
+08:47
+- same error... hmm
+- System.InvalidOperationException
+  HResult=0x80131509
+  Message=An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError':
+  Unable to find navigation ' CoverType' specified in string based include path ' CoverType'.
+  This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError'
+  to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+  Source=Microsoft.EntityFrameworkCore
+
+09:35
+- Don'n know why Product Create is not working
+- Part 3 fail.
