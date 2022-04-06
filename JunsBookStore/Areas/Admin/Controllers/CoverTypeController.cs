@@ -22,7 +22,7 @@ namespace JunsBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Upsert(int? id)
+        public IActionResult coverUpsert(int? id)
         {
             CoverType covertype = new CoverType();
             if (id == null)
@@ -40,7 +40,7 @@ namespace JunsBookStore.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(CoverType covertype)
+        public IActionResult coverUpsert(CoverType covertype)
         {
             if (ModelState.IsValid)
             {

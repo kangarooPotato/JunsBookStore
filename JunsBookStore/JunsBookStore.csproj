@@ -24,8 +24,4 @@
     <ProjectReference Include="..\JunsBooks.Utility\JunsBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Views\CoverType\" />
-  </ItemGroup>
-
 </Project>

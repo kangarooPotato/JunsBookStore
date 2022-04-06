@@ -54,6 +54,7 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 
 
 
+---------------------------------------------------------------------------------------
 2022-03-29
 
 11:45
@@ -172,6 +173,7 @@ ASP.NET Core MVC web app 2/ individual acct. authentication
 - I'm garbage
 
 
+---------------------------------------------------------------------------------------
 2022-04-05
 
 10:52
@@ -218,4 +220,48 @@ Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(object
 
 21:24
 - added "dbo.CoverTypes"
-- 
+
+21:37
+- error again
+- System.NullReferenceException
+  HResult=0x80004003
+  message=Object reference not set to an instance of an object.
+  source=JunsBookStore
+  StackTrace:
+   at JunsBookStore.Areas.Admin.Controllers.CoverTypeController.GetAll() in C:\Users\JUN\Documents\GitHub\JunsBookStore\JunsBookStore\Areas\Admin\Controllers\CoverTypeController.cs:line 71
+
+- error again
+- Request URL: https://localhost:44302/Admin/CoverType/coverUpsert
+Request Method: GET
+Status Code: 405 
+Remote Address: [::1]:44302
+Referrer Policy: strict-origin-when-cross-origin
+allow: POST
+date: Wed, 06 Apr 2022 03:37:27 GMT
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+:authority: localhost:44302
+:method: GET
+:path: /Admin/CoverType/coverUpsert
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,ko-KR;q=0.8,ko;q=0.7
+cookie: .AspNetCore.Antiforgery.OzeIPsRERUM=CfDJ8JJ8xuuY611EjtKmgVFQzppTluM7I7OP1FEd5cQF72xxOVcETm3D1lAIdVrl6PriIE76o4oQpghllHnN0F2LnTPl0xSWzTEA8MRspAzDdCxm5HzOYruChSpUI24Wv9GjQyLZTTFntNM4rdEDU51UEQ0
+referer: https://localhost:44302/Admin/CoverType
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: same-origin
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+
+- it's 405 error. maybe there must be a simple way
+
+
+23:47
+- it was upsert code error in the controller file.
+- now we can add cover type now!
