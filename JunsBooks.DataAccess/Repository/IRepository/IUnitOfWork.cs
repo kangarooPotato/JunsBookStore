@@ -12,6 +12,8 @@ namespace JunsBooks.DataAccess.Repository.IRepository
         ISP_Call SP_Call { get; }
         ICoverTypeRepository CoverType { get; }
 
+        IProductRepository Product { get; }
+
         void Save();
     }
 }

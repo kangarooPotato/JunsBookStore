@@ -265,3 +265,17 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 23:47
 - it was upsert code error in the controller file.
 - now we can add cover type now!
+
+
+23:52
+- now im adding Product stuff.
+- migration timestamp here! 20220406035334_AddProductToDb.cs
+
+
+2022-04-06
+
+00:17
+- add ProductRepository + IPro..cs and product.js
+- and i made Product folder in the Areas/Admin/Views but its for morning..
+- good ngiht! :D
+
