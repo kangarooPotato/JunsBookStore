@@ -193,6 +193,24 @@ Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(object
 - and the "AddCategoryToDb" was empty. so i put some code in there
 - on PM console, update-database, it works! now i can see the "dbo.Categories" :D
 
+
 19:20
 - Everything works fine.
+
+
+19:31
+- No, it's not
+
+
+21:17
+- I keep forgetting things when I add tables, so I'll put them in Korean first.
+
+1. 모델 프로젝트에 추가하고싶은 테이블 .cs파일로 생성
+2. PM 콘솔 켜고 .DataAccess 기본 프로젝트 설정한 후 add-migration +Add뭐시기ToDb로 마이그래이션 추가
+3. 비어있을테니 다른 에드뭐시기투디비 보고 복붙한 후 복수형으로 똑같이 바꾸기
+4. ApplicationDbContext.cs 파일 가서 public DbSet<뭐시기> 뭐시기복수형 { get; set; } 똑같이 추가하기
+5. PM 콘솔에서 update-database 하기
+
+21:24
+- added "dbo.CoverTypes"
 - 
