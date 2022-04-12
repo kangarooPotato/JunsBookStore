@@ -304,3 +304,44 @@ user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 <script src="https://cdn.tiny.cloud/1/bws62ht2ocrfai3tnan7ogir4tpy26jmeondamxxv5gi4bg0/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
+-------
+
+2022-04-12
+
+11:22
+- same error
+
+System.InvalidOperationException
+  HResult=0x80131509
+  Message=An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation ' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+
+Error	CS1520	Method must have a return type	JunsBooks.DataAccess	C:\Users\W0770897\Documents\GitHub\JunsBookStore\JunsBooks.DataAccess\Repository\CoverTypeRepository.cs	15	Active
+
+and if i trying to keep running this code
+
+ajax error comes out
+http://datatables.net/tn/7
+
+
+11:29
+- in the Areas\Admin\Controllers file "var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");"
+there was a space between "Category, CoverType"); <-like this.. and i remove it
+- now it works!
+
+11:32
+- ajax error!
+- DataTables warning: table id=tblData - Requested unknown parameter 'price' for row 0, column 2. For more information about this error, please see http://datatables.net/tn/4
+
+11:39
+- if i ignore the error and keep running it shows up
+
+- Microsoft.EntityFrameworkCore.DbUpdateException
+  HResult=0x80131500
+  Message=An error occurred while updating the entries. See the inner exception for details.
+  Source=Microsoft.EntityFrameworkCore.Relational
+  This exception was originally thrown at this call stack:
+    [External Code]
+
+Inner Exception 1:
+SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_CoverTypes_CategoryId". The conflict occurred in database "aspnet-JunsBookStore", table "dbo.CoverTypes", column 'Id'.
+The statement has been terminated.
