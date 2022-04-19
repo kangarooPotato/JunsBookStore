@@ -347,9 +347,26 @@ SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "F
 The statement has been terminated.
 
 -----
+2022-04-19
+
+
 16:53
 
 - The same error kept appearing, so I deleted all of the databases and recreated them.
 - I re-created dbo.Product by changing the FOREIGN KEY code because it seems like a problem connecting the FOREIGN KEY between CoverType and Product.
 
--
+- Everything works better than I thought.
+
+- Various kinds of items can be put into categories and cover types.
+
+- The problem is that the generated data has an ID number that is sometimes skipped. The bigger problem is that the ID starts at 1001 once.
+
+- I erased all the databases and restarted them, so there's no problem, but I'm not sure when this will happen again.
+
+- But if I update database again, ID starts from 1, so I understand that there is no big problem with the code :D
+
+
+5:12
+
+- Remove the dummy link from the navigation and leave it in a clean layout
+- Time to make product and show to home page
