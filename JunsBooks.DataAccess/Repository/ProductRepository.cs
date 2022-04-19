@@ -29,7 +29,7 @@ namespace JunsBooks.DataAccess.Repository
                     objFromDb.Description = product.Description;
                     objFromDb.ISBN = product.ISBN;
                     objFromDb.Author = product.Author;
-                    objFromDb.ListPrice = product.ListPrice;
+                    objFromDb.Price = product.Price;
                     objFromDb.CategoryId = product.CategoryId;
                     objFromDb.CoverTypeId = product.CoverTypeId;    // all properties of Product object
 
