@@ -370,3 +370,9 @@ The statement has been terminated.
 
 - Remove the dummy link from the navigation and leave it in a clean layout
 - Time to make product and show to home page
+
+
+5:28
+
+- namesapce of the ProductComtroller.cs was JunsBookS'o'tore.Areas.Admin.Controllers
+- Sotore? oh my english.....

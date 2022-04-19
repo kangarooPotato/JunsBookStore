@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JunsBookSotore.Areas.Admin.Controllers
+namespace JunsBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
