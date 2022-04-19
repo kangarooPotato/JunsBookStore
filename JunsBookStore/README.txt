@@ -345,3 +345,11 @@ there was a space between "Category, CoverType"); <-like this.. and i remove it
 Inner Exception 1:
 SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_CoverTypes_CategoryId". The conflict occurred in database "aspnet-JunsBookStore", table "dbo.CoverTypes", column 'Id'.
 The statement has been terminated.
+
+-----
+16:53
+
+- The same error kept appearing, so I deleted all of the databases and recreated them.
+- I re-created dbo.Product by changing the FOREIGN KEY code because it seems like a problem connecting the FOREIGN KEY between CoverType and Product.
+
+-
