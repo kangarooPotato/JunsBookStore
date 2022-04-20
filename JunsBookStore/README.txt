@@ -460,3 +460,7 @@ Jared Diamond
 "Diamond has written a book of remarkable scope ... one of the most important and readable works on the human past published in recent years." Winner of the Pulitzer Prize and a national bestseller: the global account of the rise of civilization that is also a stunning refutation of ideas of human development based on race.
 $19.99
 Transdisciplinary non-fiction
+
+20:50
+
+- done!
