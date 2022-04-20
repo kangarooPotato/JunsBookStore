@@ -5,11 +5,16 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JunsBookStore", "JunsBookStore\JunsBookStore.csproj", "{95021DBA-E128-4EDA-91E5-499972AD0355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunsBooks.DataAccess", "JunsBooks.DataAccess\JunsBooks.DataAccess.csproj", "{604B89F0-4D63-4F00-ACE7-D295AF9F41B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JunsBooks.DataAccess", "JunsBooks.DataAccess\JunsBooks.DataAccess.csproj", "{604B89F0-4D63-4F00-ACE7-D295AF9F41B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunsBooks.Models", "JunsBooks.Models\JunsBooks.Models.csproj", "{6DFFE674-3731-4F9D-8418-672692E6BBF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JunsBooks.Models", "JunsBooks.Models\JunsBooks.Models.csproj", "{6DFFE674-3731-4F9D-8418-672692E6BBF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunsBooks.Utility", "JunsBooks.Utility\JunsBooks.Utility.csproj", "{97653960-5306-44C5-90DF-E97FD7C89985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JunsBooks.Utility", "JunsBooks.Utility\JunsBooks.Utility.csproj", "{97653960-5306-44C5-90DF-E97FD7C89985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A551766-ACB8-4162-B119-D33BE43365E2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

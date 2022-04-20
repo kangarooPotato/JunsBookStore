@@ -369,6 +369,7 @@ The statement has been terminated.
 5:12
 
 - Remove the dummy link from the navigation and leave it in a clean layout
+
 - Time to make product and show to home page
 
 
@@ -376,3 +377,86 @@ The statement has been terminated.
 
 - namesapce of the ProductComtroller.cs was JunsBookS'o'tore.Areas.Admin.Controllers
 - Sotore? oh my english.....
+
+19:19
+
+- cant add my img on the db.. is this upsert problem??? i dont think so...
+
+
+19:47
+
+- nope it's controller problem!
+
+- I wrote a code to add A to the database. its in the ProductController
+
+19:51
+
+- I made a list of Categories/Genres.
+
+- The cover types are hardcover, softcover, and no cover.
+
+- and the books
+
+--- Categories ----
+
+Action and Adventure
+Classics
+Comic Book or Graphic Novel
+Cookbooks
+Detective and Mystery
+Fantasy
+History
+Historical Fiction
+Horror
+Literary Fiction
+Transdisciplinary non-fiction
+Poetry	
+Romance
+SF
+
+--- Cover Types ---
+
+Hard Cover
+Soft Cover
+No Cover
+
+--- Book list ---
+
+Title : It Ends with Us
+ISBN : 9781501110368
+Author : Colleen Hoover
+In this “brave and heartbreaking novel that digs its claws into you and doesn’t let go, long after you’ve finished it” (Anna Todd, New York Times bestselling author) from the #1 New York Times bestselling author of All Your Perfects, a workaholic with a too-good-to-be-true romance can’t stop thinking about her first love.
+Price : $11.99
+Category : Romance
+
+
+Where the Crawdads Sing
+9786057879134
+Delia Owens
+For years, rumors of the “Marsh Girl” haunted Barkley Cove, a quiet fishing village. Kya Clark is barefoot and wild; unfit for polite society. So in late 1969, when the popular Chase Andrews is found dead, locals immediately suspect her.
+$19.99
+Literary fiction
+
+
+The Seven Husbands of Evelyn Hugo
+9788416517275
+Taylor Jenkins Reid
+Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now?
+$14.99
+Historical fiction
+
+
+1984 (nineteen eighty-four)
+9780140817744
+George Orwell
+Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows more haunting as its futuristic purgatory becomes more real. Published in 1949, the book offers political satirist George Orwell's nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality. The brilliance of the novel is Orwell's prescience of modern life—the ubiquity of television, the distortion of the language—and his ability to construct such a thorough version of hell. Required reading for students since it was published, it ranks among the most terrifying novels ever written.
+$12.79
+SF
+
+
+Guns, Germs, and Steel: The Fates of Human Societies
+9780393317558
+Jared Diamond
+"Diamond has written a book of remarkable scope ... one of the most important and readable works on the human past published in recent years." Winner of the Pulitzer Prize and a national bestseller: the global account of the rise of civilization that is also a stunning refutation of ideas of human development based on race.
+$19.99
+Transdisciplinary non-fiction
